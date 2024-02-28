@@ -11,4 +11,4 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Test NSIS
-      run: makensis.exe
+      run: makensis.exe /VERSION
