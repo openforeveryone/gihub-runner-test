@@ -23,4 +23,4 @@ jobs:
     - name: qmake
       run: |
         qmake --version
-        ls ./Qt/5.15.2/clang_64/bin
+        ls /Users/runner/work/gihub-runner-test/Qt/5.15.2/clang_64/lib
