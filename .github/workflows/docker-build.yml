@@ -14,5 +14,6 @@ jobs:
       - name: Test Docker
         run: |
           cat /etc/os-release
+          apt update
           apt install qtbase5-dev
           qmake --version
