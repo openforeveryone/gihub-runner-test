@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: alpine
     steps:
       - name: Test Docker
         run: lsb_release -a
