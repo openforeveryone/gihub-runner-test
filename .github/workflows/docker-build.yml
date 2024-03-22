@@ -1,0 +1,14 @@
+name: Build in Container
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Docker
+        run: lsb_release -a
