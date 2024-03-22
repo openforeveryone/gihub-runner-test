@@ -12,4 +12,4 @@ jobs:
     container: alpine
     steps:
       - name: Test Docker
-        run: lsb_release -a
+        run: cat /proc/version
