@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: alpine
+    container: debian
     steps:
       - name: Test Docker
         run: cat /etc/os-release
