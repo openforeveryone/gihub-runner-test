@@ -12,4 +12,7 @@ jobs:
     container: debian
     steps:
       - name: Test Docker
-        run: cat /etc/os-release
+        run: |
+          cat /etc/os-release
+          apt install qtbase5-dev
+          qmake --version
