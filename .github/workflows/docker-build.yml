@@ -15,5 +15,5 @@ jobs:
         run: |
           cat /etc/os-release
           apt update
-          apt install qtbase5-dev
+          apt install -y qtbase5-dev
           qmake --version
