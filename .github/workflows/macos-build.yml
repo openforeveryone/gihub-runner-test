@@ -25,3 +25,7 @@ jobs:
       run: |
         qmake --version
         ls /Users/runner/work/gihub-runner-test/Qt/5.15.2/clang_64/bin
+        printf '\nuname -a\n'
+        uname -a
+        printf '\sw_vers\n'
+        sw_vers
